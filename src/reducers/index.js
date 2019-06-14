@@ -1,9 +1,9 @@
 import { combineReducers } from "redux";
-import { city } from "./city";
 import { cities } from "./cities";
+import { city } from "./city";
 
 
 export default combineReducers({
-    myCities: cities,
-    currentCity: city,
+    cities,
+    city,
 });
